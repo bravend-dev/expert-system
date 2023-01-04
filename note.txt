@@ -1,0 +1,44 @@
+-Mình sẽ làm với các bệnh
+	Bệnh về da
+	Bệnh hô hấp
+	Bệnh đường ruột
+---------------------------------------------------------------
+--Bạn đang gặp vấn đề gì?
+1. Da
+2. Hô hấp
+3. Đường ruột
+=> Chọn Hô hấp
+
+--Bạn đang cảm thấy như thế nào ?
+#Liệt kê danh sách các triệu chứng, sắp xếp các triệu chứng hay gặp ở đầu cho dễ pic
+
+#Sau khi người dùng nhập xong triệu chứng,
+#ta được danh sách các bệnh. Bot sẽ hỏi thêm vài thông tin cho chắc chắn.
+
+Bạn có cảm thấy đau đầu không ?
+1, Có
+2, Không
+
+Bạn có cảm thấy mất ngủ không ?
+1. Có
+2. Không
+
+#Khi hỏi đến lượng câu hỏi nhất định, độ chính xác khi dự đoán bệnh sẽ cao hơn.
+
+=> Bạn bị ung thư phổi
+=> Bạn cần phải ....
+
+-------------------------------------------------------------------------------------------
+Mô tả một căn bệnh
+
+Danh sách các bệnh.
+{
+	"name": "Asthma",
+	"rules": ["wheezing","shortness of breath","tight chest","coughing","fast breathing","feeling drowsy"],
+}
+
+Danh sách các triệu chứng.
+["wheezing","shortness of breath","tight chest","coughing","fast breathing","feeling drowsy"]
+----------------------------------------------------------------------------------------------
+
+
